@@ -1,4 +1,4 @@
-#How to use this
+# How to use this
 - Create a variables.tf file containing the following
 ```variable "skytap_username" {
   description = "The username for the Skytap account"
