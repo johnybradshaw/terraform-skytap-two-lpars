@@ -1,0 +1,7 @@
+variable "skytap" {
+	type = "map"
+    default = {
+        "username"  = ""
+        "api_token" = ""
+    }
+}

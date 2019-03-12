@@ -1,6 +1,6 @@
 provider "skytap" {
-  username = "${var.skytap_username}"
-  api_token = "${var.skytap_api_token}"
+  username = "${var.skytap["username"]}"
+  api_token = "${var.skytap["api_token"]}"
 }
 
 # Create a new environment
